@@ -120,10 +120,10 @@ struct ContentViewTwo: View {
             
            
            //  Shows Order Confirmation 
-        }.alert("NOW WE'RE BAKING", isPresented: $showConfirmation){
-            Button("Add MO"){}
+        }.alert("NOW WE'RE BAKING Biscuits", isPresented: $showConfirmation){
+            Button("Add MO Biscuits"){}
         } message: {
-            Text("You've Now Added a Biscuit to Your Cart 😽")
+            Text("You've Now Added a Biscuit to Your Cart 😽 v0.2")
             
         }
         
