@@ -117,7 +117,8 @@ struct ContentViewTwo: View {
                 .onTapGesture {
                     addToCartConfirmation()
                 }
-            
+            Rectangle()
+        
            
            //  Shows Order Confirmation 
         }.alert("NOW WE'RE BAKING Biscuits", isPresented: $showConfirmation){
